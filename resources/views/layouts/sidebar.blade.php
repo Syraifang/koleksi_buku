@@ -23,14 +23,14 @@
 
 <li class="nav-item {{ request()->is('kategori*') ? 'active' : '' }}">
   <a class="nav-link" href="{{ route('kategori.index') }}">
-    <span class="menu-title">Kategori Buku</span>
+    <span class="menu-title">Kategori</span>
     <i class="mdi mdi-format-list-bulleted menu-icon"></i>
   </a>
 </li>
 
 <li class="nav-item {{ request()->is('buku*') ? 'active' : '' }}">
   <a class="nav-link" href="#">
-    <span class="menu-title">Data Buku</span>
+    <span class="menu-title">Data</span>
     <i class="mdi mdi-book-open-variant menu-icon"></i>
   </a>
 </li>

@@ -1,3 +1,5 @@
+CREATE DATABASE koleksi_buku;
+
 use koleksi_buku;
 
 CREATE TABLE kategori (
@@ -13,3 +15,5 @@ CREATE TABLE buku (
     idkategori INT,
     FOREIGN KEY (idkategori) REFERENCES kategori(idkategori)
 );
+
+
